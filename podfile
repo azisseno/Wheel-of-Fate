@@ -1,0 +1,15 @@
+use_frameworks!
+
+workspace 'Wheel-Of-Fate'
+pod 'Alamofire', '4.7.3'
+pod 'SwiftyJSON', '~> 4.0'
+
+target 'Wheel-Of-Fate' do
+
+end
+
+target 'api' do
+    project 'api/api.xcodeproj'
+
+    
+end
