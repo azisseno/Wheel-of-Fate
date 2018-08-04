@@ -23,6 +23,8 @@
 		102DA2332115EC1A001AEA25 /* EngineersDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2322115EC1A001AEA25 /* EngineersDayViewController.swift */; };
 		102DA2372115EC7B001AEA25 /* EngineersDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2362115EC7B001AEA25 /* EngineersDayViewModel.swift */; };
 		102DA2392115EC8F001AEA25 /* EngineersDayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2382115EC8F001AEA25 /* EngineersDayDataSource.swift */; };
+		102DA23B2115EF88001AEA25 /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA23A2115EF88001AEA25 /* Days.swift */; };
+		102DA23D2115F883001AEA25 /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA23C2115F883001AEA25 /* SegueHandlerType.swift */; };
 		103D773C2114BDBB00700BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773B2114BDBB00700BB9 /* AppDelegate.swift */; };
 		103D773E2114BDBB00700BB9 /* EngineersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773D2114BDBB00700BB9 /* EngineersViewController.swift */; };
 		103D77412114BDBB00700BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D773F2114BDBB00700BB9 /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 		102DA2322115EC1A001AEA25 /* EngineersDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDayViewController.swift; sourceTree = "<group>"; };
 		102DA2362115EC7B001AEA25 /* EngineersDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDayViewModel.swift; sourceTree = "<group>"; };
 		102DA2382115EC8F001AEA25 /* EngineersDayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDayDataSource.swift; sourceTree = "<group>"; };
+		102DA23A2115EF88001AEA25 /* Days.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Days.swift; sourceTree = "<group>"; };
+		102DA23C2115F883001AEA25 /* SegueHandlerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
 		103D77382114BDBB00700BB9 /* Wheel-Of-Fate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel-Of-Fate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		103D773B2114BDBB00700BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		103D773D2114BDBB00700BB9 /* EngineersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				102DA1EE2114D61F001AEA25 /* Constants.swift */,
 				102DA22B2115E336001AEA25 /* DynamicValue.swift */,
 				102DA22D2115E5F5001AEA25 /* Connectivity.swift */,
+				102DA23A2115EF88001AEA25 /* Days.swift */,
+				102DA23C2115F883001AEA25 /* SegueHandlerType.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -378,6 +384,7 @@
 				103D773E2114BDBB00700BB9 /* EngineersViewController.swift in Sources */,
 				102DA22E2115E5F5001AEA25 /* Connectivity.swift in Sources */,
 				102DA2222115DF85001AEA25 /* EngineerDayView.swift in Sources */,
+				102DA23B2115EF88001AEA25 /* Days.swift in Sources */,
 				102DA2392115EC8F001AEA25 /* EngineersDayDataSource.swift in Sources */,
 				102DA2282115E29E001AEA25 /* EngineersViewModel.swift in Sources */,
 				103D773C2114BDBB00700BB9 /* AppDelegate.swift in Sources */,
@@ -386,6 +393,7 @@
 				102DA2372115EC7B001AEA25 /* EngineersDayViewModel.swift in Sources */,
 				102DA22C2115E336001AEA25 /* DynamicValue.swift in Sources */,
 				102DA22A2115E2AE001AEA25 /* EngineersDataSource.swift in Sources */,
+				102DA23D2115F883001AEA25 /* SegueHandlerType.swift in Sources */,
 				102DA2332115EC1A001AEA25 /* EngineersDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

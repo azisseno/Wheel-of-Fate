@@ -80,6 +80,21 @@ class EngineersViewController: UIViewController {
     @objc func handleRefresh(_ rc: UIRefreshControl) {
         viewModel.load(fetchForce: true)
     }
+}
 
+//MARK: - Segue Handler
+extension EngineersViewController: SegueHandlerType {
+    enum SegueIdentifier: String {
+        case showGenerated
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segueIdentifier(for: segue) {
+        case .showGenerated:
+            let destination = segue.destination as! EngineersDayViewController
+            guard let engineers = viewModel.dataSource?.data.value else { return }
+            destination.viewModel.engineers = engineers
+        }
+    }
 }
 
