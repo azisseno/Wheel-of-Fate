@@ -10,8 +10,8 @@ import Foundation
 import SwiftyJSON
 
 public struct Engineer: APIParser {
-    var id: UInt
-    var name: String
+    public var id: UInt
+    public var name: String
     
     public init(json: JSON) {
         self.id = json["id"].uIntValue
@@ -20,5 +20,10 @@ public struct Engineer: APIParser {
 
 }
 
-extension Engineer {
+public struct EngineerResponse: APIParser {
+    public var engineers: [Engineer]
+    
+    public init(json: JSON) {
+        self.engineers = json["engineers"].arrayValue.map { Engineer(json: $0) }
+    }
 }

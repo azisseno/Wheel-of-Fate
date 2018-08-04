@@ -6,9 +6,26 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Engineers View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="EngineersViewController" customModule="Wheel_Of_Fate" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W17-98-CQO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="31.934032983508249"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="XlU-h3-9yN">
             <objects>
@@ -20,22 +37,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="jiT-OX-AbL" kind="relationship" relationship="rootViewController" id="p7i-g5-hhK"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="p7i-g5-hhK"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PO2-IO-VIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="161" y="32"/>
-        </scene>
-        <!--Engineers-->
-        <scene sceneID="wuM-rT-ZW9">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Engineers" id="jiT-OX-AbL" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="hws-CT-rEx"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qxo-BD-L4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="972" y="31.934032983508249"/>
         </scene>
     </scenes>
 </document>

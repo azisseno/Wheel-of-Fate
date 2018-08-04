@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102DA1EB2114D5E2001AEA25 /* api.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102DA1EA2114D5E2001AEA25 /* api.framework */; };
+		102DA1EF2114D61F001AEA25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA1EE2114D61F001AEA25 /* Constants.swift */; };
+		102DA20C2115D6FB001AEA25 /* Wheel_Of_FateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA20B2115D6FB001AEA25 /* Wheel_Of_FateTests.swift */; };
+		102DA2142115D709001AEA25 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2132115D709001AEA25 /* RequestTests.swift */; };
+		102DA2172115DDF9001AEA25 /* Engineers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102DA2162115DDF9001AEA25 /* Engineers.storyboard */; };
+		102DA2202115DF7C001AEA25 /* EngineerDayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102DA21F2115DF7C001AEA25 /* EngineerDayView.xib */; };
+		102DA2222115DF85001AEA25 /* EngineerDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2212115DF85001AEA25 /* EngineerDayView.swift */; };
+		102DA2262115E12B001AEA25 /* EngineerDayViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2252115E12B001AEA25 /* EngineerDayViewCell.swift */; };
+		102DA2282115E29E001AEA25 /* EngineersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2272115E29E001AEA25 /* EngineersViewModel.swift */; };
+		102DA22A2115E2AE001AEA25 /* EngineersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2292115E2AE001AEA25 /* EngineersDataSource.swift */; };
+		102DA22C2115E336001AEA25 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA22B2115E336001AEA25 /* DynamicValue.swift */; };
+		102DA22E2115E5F5001AEA25 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA22D2115E5F5001AEA25 /* Connectivity.swift */; };
+		102DA2312115EC08001AEA25 /* EngineersDay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102DA2302115EC08001AEA25 /* EngineersDay.storyboard */; };
+		102DA2332115EC1A001AEA25 /* EngineersDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2322115EC1A001AEA25 /* EngineersDayViewController.swift */; };
+		102DA2372115EC7B001AEA25 /* EngineersDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2362115EC7B001AEA25 /* EngineersDayViewModel.swift */; };
+		102DA2392115EC8F001AEA25 /* EngineersDayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2382115EC8F001AEA25 /* EngineersDayDataSource.swift */; };
 		103D773C2114BDBB00700BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773B2114BDBB00700BB9 /* AppDelegate.swift */; };
-		103D773E2114BDBB00700BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773D2114BDBB00700BB9 /* ViewController.swift */; };
+		103D773E2114BDBB00700BB9 /* EngineersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773D2114BDBB00700BB9 /* EngineersViewController.swift */; };
 		103D77412114BDBB00700BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D773F2114BDBB00700BB9 /* Main.storyboard */; };
 		103D77442114BDBB00700BB9 /* Wheel_Of_Fate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103D77422114BDBB00700BB9 /* Wheel_Of_Fate.xcdatamodeld */; };
 		103D77462114BDBB00700BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103D77452114BDBB00700BB9 /* Assets.xcassets */; };
@@ -16,10 +32,38 @@
 		F40E14A8F47FD2437AA26E07 /* Pods_Wheel_Of_Fate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37122BE7FC1064414A62EFAA /* Pods_Wheel_Of_Fate.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		102DA20E2115D6FC001AEA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103D77302114BDBB00700BB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103D77372114BDBB00700BB9;
+			remoteInfo = "Wheel-Of-Fate";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		102DA1EA2114D5E2001AEA25 /* api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102DA1EE2114D61F001AEA25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		102DA2092115D6FB001AEA25 /* Wheel-Of-FateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheel-Of-FateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		102DA20B2115D6FB001AEA25 /* Wheel_Of_FateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel_Of_FateTests.swift; sourceTree = "<group>"; };
+		102DA20D2115D6FC001AEA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102DA2132115D709001AEA25 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		102DA2162115DDF9001AEA25 /* Engineers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Engineers.storyboard; sourceTree = "<group>"; };
+		102DA21F2115DF7C001AEA25 /* EngineerDayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EngineerDayView.xib; sourceTree = "<group>"; };
+		102DA2212115DF85001AEA25 /* EngineerDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerDayView.swift; sourceTree = "<group>"; };
+		102DA2252115E12B001AEA25 /* EngineerDayViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerDayViewCell.swift; sourceTree = "<group>"; };
+		102DA2272115E29E001AEA25 /* EngineersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersViewModel.swift; sourceTree = "<group>"; };
+		102DA2292115E2AE001AEA25 /* EngineersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDataSource.swift; sourceTree = "<group>"; };
+		102DA22B2115E336001AEA25 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		102DA22D2115E5F5001AEA25 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		102DA2302115EC08001AEA25 /* EngineersDay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = EngineersDay.storyboard; path = "Wheel-Of-Fate/App/EngineersDay/EngineersDay.storyboard"; sourceTree = SOURCE_ROOT; };
+		102DA2322115EC1A001AEA25 /* EngineersDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDayViewController.swift; sourceTree = "<group>"; };
+		102DA2362115EC7B001AEA25 /* EngineersDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDayViewModel.swift; sourceTree = "<group>"; };
+		102DA2382115EC8F001AEA25 /* EngineersDayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDayDataSource.swift; sourceTree = "<group>"; };
 		103D77382114BDBB00700BB9 /* Wheel-Of-Fate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel-Of-Fate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		103D773B2114BDBB00700BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		103D773D2114BDBB00700BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		103D773D2114BDBB00700BB9 /* EngineersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersViewController.swift; sourceTree = "<group>"; };
 		103D77402114BDBB00700BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		103D77432114BDBB00700BB9 /* Wheel_Of_Fate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wheel_Of_Fate.xcdatamodel; sourceTree = "<group>"; };
 		103D77452114BDBB00700BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,10 +75,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		102DA2062115D6FB001AEA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		103D77352114BDBB00700BB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102DA1EB2114D5E2001AEA25 /* api.framework in Frameworks */,
 				F40E14A8F47FD2437AA26E07 /* Pods_Wheel_Of_Fate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,10 +94,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		102DA1EC2114D60B001AEA25 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				102DA1EE2114D61F001AEA25 /* Constants.swift */,
+				102DA22B2115E336001AEA25 /* DynamicValue.swift */,
+				102DA22D2115E5F5001AEA25 /* Connectivity.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		102DA1ED2114D60F001AEA25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		102DA2022115D3FE001AEA25 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				102DA22F2115EBCE001AEA25 /* EngineersDay */,
+				102DA2152115DA2A001AEA25 /* Engineers */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		102DA20A2115D6FB001AEA25 /* Wheel-Of-FateTests */ = {
+			isa = PBXGroup;
+			children = (
+				102DA20B2115D6FB001AEA25 /* Wheel_Of_FateTests.swift */,
+				102DA2132115D709001AEA25 /* RequestTests.swift */,
+				102DA20D2115D6FC001AEA25 /* Info.plist */,
+			);
+			path = "Wheel-Of-FateTests";
+			sourceTree = "<group>";
+		};
+		102DA2152115DA2A001AEA25 /* Engineers */ = {
+			isa = PBXGroup;
+			children = (
+				102DA2162115DDF9001AEA25 /* Engineers.storyboard */,
+				103D773D2114BDBB00700BB9 /* EngineersViewController.swift */,
+				102DA2272115E29E001AEA25 /* EngineersViewModel.swift */,
+				102DA2292115E2AE001AEA25 /* EngineersDataSource.swift */,
+			);
+			path = Engineers;
+			sourceTree = "<group>";
+		};
+		102DA21E2115DF6B001AEA25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				102DA21F2115DF7C001AEA25 /* EngineerDayView.xib */,
+				102DA2212115DF85001AEA25 /* EngineerDayView.swift */,
+				102DA2252115E12B001AEA25 /* EngineerDayViewCell.swift */,
+			);
+			name = Views;
+			path = V;
+			sourceTree = "<group>";
+		};
+		102DA22F2115EBCE001AEA25 /* EngineersDay */ = {
+			isa = PBXGroup;
+			children = (
+				102DA2302115EC08001AEA25 /* EngineersDay.storyboard */,
+				102DA2322115EC1A001AEA25 /* EngineersDayViewController.swift */,
+				102DA2362115EC7B001AEA25 /* EngineersDayViewModel.swift */,
+				102DA2382115EC8F001AEA25 /* EngineersDayDataSource.swift */,
+			);
+			path = EngineersDay;
+			sourceTree = "<group>";
+		};
 		103D772F2114BDBB00700BB9 = {
 			isa = PBXGroup;
 			children = (
 				103D773A2114BDBB00700BB9 /* Wheel-Of-Fate */,
+				102DA20A2115D6FB001AEA25 /* Wheel-Of-FateTests */,
 				103D77392114BDBB00700BB9 /* Products */,
 				4DE6A424DD19991CEC130AEA /* Pods */,
 				8A6AAF09FCDE97C6AAD3890C /* Frameworks */,
@@ -56,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				103D77382114BDBB00700BB9 /* Wheel-Of-Fate.app */,
+				102DA2092115D6FB001AEA25 /* Wheel-Of-FateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,8 +186,11 @@
 		103D773A2114BDBB00700BB9 /* Wheel-Of-Fate */ = {
 			isa = PBXGroup;
 			children = (
+				102DA21E2115DF6B001AEA25 /* Views */,
+				102DA2022115D3FE001AEA25 /* App */,
+				102DA1ED2114D60F001AEA25 /* Extensions */,
+				102DA1EC2114D60B001AEA25 /* Common */,
 				103D773B2114BDBB00700BB9 /* AppDelegate.swift */,
-				103D773D2114BDBB00700BB9 /* ViewController.swift */,
 				103D773F2114BDBB00700BB9 /* Main.storyboard */,
 				103D77452114BDBB00700BB9 /* Assets.xcassets */,
 				103D77472114BDBB00700BB9 /* LaunchScreen.storyboard */,
@@ -86,6 +212,7 @@
 		8A6AAF09FCDE97C6AAD3890C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				102DA1EA2114D5E2001AEA25 /* api.framework */,
 				37122BE7FC1064414A62EFAA /* Pods_Wheel_Of_Fate.framework */,
 			);
 			name = Frameworks;
@@ -94,6 +221,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		102DA2082115D6FB001AEA25 /* Wheel-Of-FateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102DA2102115D6FC001AEA25 /* Build configuration list for PBXNativeTarget "Wheel-Of-FateTests" */;
+			buildPhases = (
+				102DA2052115D6FB001AEA25 /* Sources */,
+				102DA2062115D6FB001AEA25 /* Frameworks */,
+				102DA2072115D6FB001AEA25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102DA20F2115D6FC001AEA25 /* PBXTargetDependency */,
+			);
+			name = "Wheel-Of-FateTests";
+			productName = "Wheel-Of-FateTests";
+			productReference = 102DA2092115D6FB001AEA25 /* Wheel-Of-FateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		103D77372114BDBB00700BB9 /* Wheel-Of-Fate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 103D774D2114BDBB00700BB9 /* Build configuration list for PBXNativeTarget "Wheel-Of-Fate" */;
@@ -123,6 +268,10 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Azis Senoaji Prasetyotomo";
 				TargetAttributes = {
+					102DA2082115D6FB001AEA25 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 103D77372114BDBB00700BB9;
+					};
 					103D77372114BDBB00700BB9 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -142,18 +291,29 @@
 			projectRoot = "";
 			targets = (
 				103D77372114BDBB00700BB9 /* Wheel-Of-Fate */,
+				102DA2082115D6FB001AEA25 /* Wheel-Of-FateTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		102DA2072115D6FB001AEA25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		103D77362114BDBB00700BB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102DA2312115EC08001AEA25 /* EngineersDay.storyboard in Resources */,
 				103D77492114BDBB00700BB9 /* LaunchScreen.storyboard in Resources */,
 				103D77462114BDBB00700BB9 /* Assets.xcassets in Resources */,
+				102DA2202115DF7C001AEA25 /* EngineerDayView.xib in Resources */,
 				103D77412114BDBB00700BB9 /* Main.storyboard in Resources */,
+				102DA2172115DDF9001AEA25 /* Engineers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,17 +361,44 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		102DA2052115D6FB001AEA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102DA20C2115D6FB001AEA25 /* Wheel_Of_FateTests.swift in Sources */,
+				102DA2142115D709001AEA25 /* RequestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		103D77342114BDBB00700BB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				103D77442114BDBB00700BB9 /* Wheel_Of_Fate.xcdatamodeld in Sources */,
-				103D773E2114BDBB00700BB9 /* ViewController.swift in Sources */,
+				103D773E2114BDBB00700BB9 /* EngineersViewController.swift in Sources */,
+				102DA22E2115E5F5001AEA25 /* Connectivity.swift in Sources */,
+				102DA2222115DF85001AEA25 /* EngineerDayView.swift in Sources */,
+				102DA2392115EC8F001AEA25 /* EngineersDayDataSource.swift in Sources */,
+				102DA2282115E29E001AEA25 /* EngineersViewModel.swift in Sources */,
 				103D773C2114BDBB00700BB9 /* AppDelegate.swift in Sources */,
+				102DA2262115E12B001AEA25 /* EngineerDayViewCell.swift in Sources */,
+				102DA1EF2114D61F001AEA25 /* Constants.swift in Sources */,
+				102DA2372115EC7B001AEA25 /* EngineersDayViewModel.swift in Sources */,
+				102DA22C2115E336001AEA25 /* DynamicValue.swift in Sources */,
+				102DA22A2115E2AE001AEA25 /* EngineersDataSource.swift in Sources */,
+				102DA2332115EC1A001AEA25 /* EngineersDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		102DA20F2115D6FC001AEA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103D77372114BDBB00700BB9 /* Wheel-Of-Fate */;
+			targetProxy = 102DA20E2115D6FC001AEA25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		103D773F2114BDBB00700BB9 /* Main.storyboard */ = {
@@ -233,6 +420,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		102DA2112115D6FC001AEA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TK32MKP4J;
+				INFOPLIST_FILE = "Wheel-Of-FateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azisseno.Wheel-Of-FateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel-Of-Fate.app/Wheel-Of-Fate";
+			};
+			name = Debug;
+		};
+		102DA2122115D6FC001AEA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TK32MKP4J;
+				INFOPLIST_FILE = "Wheel-Of-FateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.azisseno.Wheel-Of-FateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel-Of-Fate.app/Wheel-Of-Fate";
+			};
+			name = Release;
+		};
 		103D774B2114BDBB00700BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,6 +615,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		102DA2102115D6FC001AEA25 /* Build configuration list for PBXNativeTarget "Wheel-Of-FateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102DA2112115D6FC001AEA25 /* Debug */,
+				102DA2122115D6FC001AEA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		103D77332114BDBB00700BB9 /* Build configuration list for PBXProject "Wheel-Of-Fate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EngineerDayView" customModule="Wheel_Of_Fate" customModuleProvider="target">
+            <connections>
+                <outlet property="dayEngineerLabel" destination="tNb-oU-Ocy" id="PQF-UM-EQ9"/>
+                <outlet property="dayLabel" destination="UXe-LZ-f5K" id="fGy-vz-iqy"/>
+                <outlet property="nightEngineerLabel" destination="chj-ZG-usA" id="h28-lH-egf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="101"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXe-LZ-f5K">
+                    <rect key="frame" x="20" y="12" width="29.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNb-oU-Ocy">
+                    <rect key="frame" x="20" y="41" width="352" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chj-ZG-usA">
+                    <rect key="frame" x="20" y="70" width="352" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="chj-ZG-usA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="919-6O-uc1"/>
+                <constraint firstItem="tNb-oU-Ocy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="EQw-cu-ZUD"/>
+                <constraint firstItem="UXe-LZ-f5K" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="Wog-XC-iJD"/>
+                <constraint firstItem="UXe-LZ-f5K" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="b3p-di-5Yw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="chj-ZG-usA" secondAttribute="bottom" constant="8" id="hJa-jb-1NG"/>
+                <constraint firstItem="tNb-oU-Ocy" firstAttribute="top" secondItem="UXe-LZ-f5K" secondAttribute="bottom" constant="8" id="mVU-mE-u10"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tNb-oU-Ocy" secondAttribute="trailing" constant="20" id="wEQ-M5-0zW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="chj-ZG-usA" secondAttribute="trailing" constant="20" id="yc8-DN-HAG"/>
+                <constraint firstItem="chj-ZG-usA" firstAttribute="top" secondItem="tNb-oU-Ocy" secondAttribute="bottom" constant="8" id="zcd-S8-jfq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="42" y="-229.5"/>
+        </view>
+    </objects>
+</document>
