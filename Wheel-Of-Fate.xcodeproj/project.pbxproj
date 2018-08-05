@@ -12,14 +12,10 @@
 		102DA20C2115D6FB001AEA25 /* Wheel_Of_FateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA20B2115D6FB001AEA25 /* Wheel_Of_FateTests.swift */; };
 		102DA2142115D709001AEA25 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2132115D709001AEA25 /* RequestTests.swift */; };
 		102DA2172115DDF9001AEA25 /* Engineers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102DA2162115DDF9001AEA25 /* Engineers.storyboard */; };
-		102DA2202115DF7C001AEA25 /* EngineerDayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102DA21F2115DF7C001AEA25 /* EngineerDayView.xib */; };
-		102DA2222115DF85001AEA25 /* EngineerDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2212115DF85001AEA25 /* EngineerDayView.swift */; };
-		102DA2262115E12B001AEA25 /* EngineerDayViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2252115E12B001AEA25 /* EngineerDayViewCell.swift */; };
 		102DA2282115E29E001AEA25 /* EngineersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2272115E29E001AEA25 /* EngineersViewModel.swift */; };
 		102DA22A2115E2AE001AEA25 /* EngineersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2292115E2AE001AEA25 /* EngineersDataSource.swift */; };
 		102DA22C2115E336001AEA25 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA22B2115E336001AEA25 /* DynamicValue.swift */; };
 		102DA22E2115E5F5001AEA25 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA22D2115E5F5001AEA25 /* Connectivity.swift */; };
-		102DA2312115EC08001AEA25 /* EngineersDay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102DA2302115EC08001AEA25 /* EngineersDay.storyboard */; };
 		102DA2332115EC1A001AEA25 /* EngineersScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2322115EC1A001AEA25 /* EngineersScheduleViewController.swift */; };
 		102DA2372115EC7B001AEA25 /* EngineersScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2362115EC7B001AEA25 /* EngineersScheduleViewModel.swift */; };
 		102DA2392115EC8F001AEA25 /* EngineersScheduleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA2382115EC8F001AEA25 /* EngineersScheduleDataSource.swift */; };
@@ -28,6 +24,10 @@
 		102DA24321170DD0001AEA25 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA24221170DD0001AEA25 /* Array.swift */; };
 		102DA24521170EAC001AEA25 /* Engineer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA24421170EAC001AEA25 /* Engineer.swift */; };
 		102DA24921171A5B001AEA25 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA24821171A5B001AEA25 /* Date.swift */; };
+		102DA24D211753C2001AEA25 /* EngineerDayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102DA24A211753C2001AEA25 /* EngineerDayView.xib */; };
+		102DA24E211753C2001AEA25 /* EngineerDayViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA24B211753C2001AEA25 /* EngineerDayViewCell.swift */; };
+		102DA24F211753C2001AEA25 /* EngineerDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DA24C211753C2001AEA25 /* EngineerDayView.swift */; };
+		102DA251211753D6001AEA25 /* EngineersDay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102DA250211753D6001AEA25 /* EngineersDay.storyboard */; };
 		103D773C2114BDBB00700BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773B2114BDBB00700BB9 /* AppDelegate.swift */; };
 		103D773E2114BDBB00700BB9 /* EngineersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D773D2114BDBB00700BB9 /* EngineersViewController.swift */; };
 		103D77412114BDBB00700BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D773F2114BDBB00700BB9 /* Main.storyboard */; };
@@ -55,14 +55,10 @@
 		102DA20D2115D6FC001AEA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102DA2132115D709001AEA25 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
 		102DA2162115DDF9001AEA25 /* Engineers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Engineers.storyboard; sourceTree = "<group>"; };
-		102DA21F2115DF7C001AEA25 /* EngineerDayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EngineerDayView.xib; sourceTree = "<group>"; };
-		102DA2212115DF85001AEA25 /* EngineerDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerDayView.swift; sourceTree = "<group>"; };
-		102DA2252115E12B001AEA25 /* EngineerDayViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineerDayViewCell.swift; sourceTree = "<group>"; };
 		102DA2272115E29E001AEA25 /* EngineersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersViewModel.swift; sourceTree = "<group>"; };
 		102DA2292115E2AE001AEA25 /* EngineersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersDataSource.swift; sourceTree = "<group>"; };
 		102DA22B2115E336001AEA25 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
 		102DA22D2115E5F5001AEA25 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
-		102DA2302115EC08001AEA25 /* EngineersDay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = EngineersDay.storyboard; path = "Wheel-Of-Fate/App/EngineersDay/EngineersDay.storyboard"; sourceTree = SOURCE_ROOT; };
 		102DA2322115EC1A001AEA25 /* EngineersScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersScheduleViewController.swift; sourceTree = "<group>"; };
 		102DA2362115EC7B001AEA25 /* EngineersScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersScheduleViewModel.swift; sourceTree = "<group>"; };
 		102DA2382115EC8F001AEA25 /* EngineersScheduleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersScheduleDataSource.swift; sourceTree = "<group>"; };
@@ -71,6 +67,10 @@
 		102DA24221170DD0001AEA25 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		102DA24421170EAC001AEA25 /* Engineer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engineer.swift; sourceTree = "<group>"; };
 		102DA24821171A5B001AEA25 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		102DA24A211753C2001AEA25 /* EngineerDayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EngineerDayView.xib; path = "Wheel-Of-Fate/Views/EngineerView/EngineerDayView.xib"; sourceTree = SOURCE_ROOT; };
+		102DA24B211753C2001AEA25 /* EngineerDayViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EngineerDayViewCell.swift; path = "Wheel-Of-Fate/Views/EngineerView/EngineerDayViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		102DA24C211753C2001AEA25 /* EngineerDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EngineerDayView.swift; path = "Wheel-Of-Fate/Views/EngineerView/EngineerDayView.swift"; sourceTree = SOURCE_ROOT; };
+		102DA250211753D6001AEA25 /* EngineersDay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EngineersDay.storyboard; sourceTree = "<group>"; };
 		103D77382114BDBB00700BB9 /* Wheel-Of-Fate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel-Of-Fate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		103D773B2114BDBB00700BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		103D773D2114BDBB00700BB9 /* EngineersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersViewController.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		102DA2022115D3FE001AEA25 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				102DA22F2115EBCE001AEA25 /* EngineersDay */,
+				102DA22F2115EBCE001AEA25 /* EngineersSchedule */,
 				102DA2152115DA2A001AEA25 /* Engineers */,
 			);
 			path = App;
@@ -159,23 +159,23 @@
 		102DA21E2115DF6B001AEA25 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				102DA21F2115DF7C001AEA25 /* EngineerDayView.xib */,
-				102DA2212115DF85001AEA25 /* EngineerDayView.swift */,
-				102DA2252115E12B001AEA25 /* EngineerDayViewCell.swift */,
+				102DA24C211753C2001AEA25 /* EngineerDayView.swift */,
+				102DA24A211753C2001AEA25 /* EngineerDayView.xib */,
+				102DA24B211753C2001AEA25 /* EngineerDayViewCell.swift */,
 			);
 			name = Views;
 			path = V;
 			sourceTree = "<group>";
 		};
-		102DA22F2115EBCE001AEA25 /* EngineersDay */ = {
+		102DA22F2115EBCE001AEA25 /* EngineersSchedule */ = {
 			isa = PBXGroup;
 			children = (
-				102DA2302115EC08001AEA25 /* EngineersDay.storyboard */,
+				102DA250211753D6001AEA25 /* EngineersDay.storyboard */,
 				102DA2322115EC1A001AEA25 /* EngineersScheduleViewController.swift */,
 				102DA2362115EC7B001AEA25 /* EngineersScheduleViewModel.swift */,
 				102DA2382115EC8F001AEA25 /* EngineersScheduleDataSource.swift */,
 			);
-			path = EngineersDay;
+			path = EngineersSchedule;
 			sourceTree = "<group>";
 		};
 		103D772F2114BDBB00700BB9 = {
@@ -323,10 +323,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102DA2312115EC08001AEA25 /* EngineersDay.storyboard in Resources */,
+				102DA251211753D6001AEA25 /* EngineersDay.storyboard in Resources */,
 				103D77492114BDBB00700BB9 /* LaunchScreen.storyboard in Resources */,
+				102DA24D211753C2001AEA25 /* EngineerDayView.xib in Resources */,
 				103D77462114BDBB00700BB9 /* Assets.xcassets in Resources */,
-				102DA2202115DF7C001AEA25 /* EngineerDayView.xib in Resources */,
 				103D77412114BDBB00700BB9 /* Main.storyboard in Resources */,
 				102DA2172115DDF9001AEA25 /* Engineers.storyboard in Resources */,
 			);
@@ -391,16 +391,16 @@
 			files = (
 				103D77442114BDBB00700BB9 /* Wheel_Of_Fate.xcdatamodeld in Sources */,
 				103D773E2114BDBB00700BB9 /* EngineersViewController.swift in Sources */,
+				102DA24E211753C2001AEA25 /* EngineerDayViewCell.swift in Sources */,
 				102DA22E2115E5F5001AEA25 /* Connectivity.swift in Sources */,
 				102DA24321170DD0001AEA25 /* Array.swift in Sources */,
-				102DA2222115DF85001AEA25 /* EngineerDayView.swift in Sources */,
 				102DA23B2115EF88001AEA25 /* Days.swift in Sources */,
 				102DA24521170EAC001AEA25 /* Engineer.swift in Sources */,
 				102DA2392115EC8F001AEA25 /* EngineersScheduleDataSource.swift in Sources */,
+				102DA24F211753C2001AEA25 /* EngineerDayView.swift in Sources */,
 				102DA2282115E29E001AEA25 /* EngineersViewModel.swift in Sources */,
 				102DA24921171A5B001AEA25 /* Date.swift in Sources */,
 				103D773C2114BDBB00700BB9 /* AppDelegate.swift in Sources */,
-				102DA2262115E12B001AEA25 /* EngineerDayViewCell.swift in Sources */,
 				102DA1EF2114D61F001AEA25 /* Constants.swift in Sources */,
 				102DA2372115EC7B001AEA25 /* EngineersScheduleViewModel.swift in Sources */,
 				102DA22C2115E336001AEA25 /* DynamicValue.swift in Sources */,

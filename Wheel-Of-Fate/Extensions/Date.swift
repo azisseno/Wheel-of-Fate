@@ -18,4 +18,8 @@ extension Date {
         dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
         return dateFormatter.string(from: self)
     }
+    
+    func getWeekdaysDateWith(interval days: Int) -> Date {
+        return Calendar.current.date(byAdding: .day, value: days % 5, to: self)!
+    }
 }

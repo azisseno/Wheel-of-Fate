@@ -15,9 +15,9 @@ extension Array {
         return self[randomIndex]
     }
     
-    func take(_ index: Int) -> [Element] {
+    func take(last index: Int) -> [Element] {
         if index < count {
-            return Array(prefix(through: index))
+            return Array(suffix(index))
         }
         return self
     }

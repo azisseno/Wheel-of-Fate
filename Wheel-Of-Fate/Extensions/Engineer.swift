@@ -14,9 +14,3 @@ extension Engineer: Equatable {
         return lhs.id == rhs.id
     }
 }
-
-extension Engineer: Hashable {
-    public var hashValue: Int {
-        return id.hashValue
-    }
-}
