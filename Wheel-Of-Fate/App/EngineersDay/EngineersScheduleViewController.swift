@@ -1,5 +1,5 @@
 //
-//  EngineersDayViewController.swift
+//  EngineersScheduleViewController.swift
 //  Wheel-Of-Fate
 //
 //  Created by Azis Senoaji Prasetyotomo on 04/08/18.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class EngineersDayViewController: UITableViewController {
+class EngineersScheduleViewController: UITableViewController {
 
-    let dataSource: EngineersDayDataSource = EngineersDayDataSource()
-    lazy var viewModel: EngineersDayViewModel = EngineersDayViewModel(dataSource: dataSource)
+    let dataSource: EngineersScheduleDataSource = EngineersScheduleDataSource()
+    lazy var viewModel: EngineersScheduleViewModel = EngineersScheduleViewModel(dataSource: dataSource)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +35,7 @@ class EngineersDayViewController: UITableViewController {
         tableView.estimatedRowHeight = 65
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.tableFooterView = UIView()
-        
+        tableView.allowsSelection = false
         tableView.dataSource = dataSource
     }
     

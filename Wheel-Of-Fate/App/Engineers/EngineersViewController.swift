@@ -50,7 +50,7 @@ class EngineersViewController: UIViewController {
                                   action: #selector(handleRefresh(_:)),
                                   for: .valueChanged)
         tableView.refreshControl?.tintColor = .darkGray
-
+        tableView.allowsSelection = false
         tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.tableFooterView = UIView()
@@ -91,7 +91,7 @@ extension EngineersViewController: SegueHandlerType {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segueIdentifier(for: segue) {
         case .showGenerated:
-            let destination = segue.destination as! EngineersDayViewController
+            let destination = segue.destination as! EngineersScheduleViewController
             guard let engineers = viewModel.dataSource?.data.value else { return }
             destination.viewModel.engineers = engineers
         }

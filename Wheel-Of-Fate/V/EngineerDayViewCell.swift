@@ -13,9 +13,7 @@ class EngineerDayViewCell: UITableViewCell {
     @IBOutlet weak var engineersDayView: EngineerDayView!
     
     func setup(dayText: String, dayEngineer: String, nightEngineer: String) {
-        engineersDayView.dayLabel.text = dayText
-        engineersDayView.dayEngineerLabel.text = "Day Shift -> " +  dayEngineer
-        engineersDayView.nightEngineerLabel.text = "Night Shift -> " + nightEngineer
+        engineersDayView.setup(dayText: dayText, dayEngineer: dayEngineer, nightEngineer: nightEngineer)
     }
     
 }

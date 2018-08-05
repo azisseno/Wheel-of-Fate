@@ -17,3 +17,6 @@ enum RequestState {
     case error(ErrorResponse)
 }
 
+func randomNumber(min: Int, max: Int)-> Int {
+    return Int(arc4random_uniform(UInt32(max-min)) + UInt32(min));
+}

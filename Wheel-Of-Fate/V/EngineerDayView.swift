@@ -37,6 +37,12 @@ class EngineerDayView: UIView {
         nightEngineerLabel.font = .systemFont(ofSize: 14, weight: .regular)
     }
     
+    func setup(dayText: String, dayEngineer: String, nightEngineer: String) {
+        dayLabel.text = dayText
+        dayEngineerLabel.text = "Day Shift -> " +  dayEngineer
+        nightEngineerLabel.text = "Night Shift -> " + nightEngineer
+    }
+    
     func setupXIB() {
         guard let view = loadViewFromNib() else { return }
         view.frame = bounds
